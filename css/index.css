@@ -1,0 +1,145 @@
+/* Text */
+h1, .sectionHeading {
+    font-family: 'Yeseva One', cursive;
+    color: #012B42;
+  }
+  p, h2, h3, h4, h5, h6, .btn, .nav-link, .dropdown-item {
+    font-family: 'Raleway', sans-serif;
+  }
+  p {
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+  }
+  ul {
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+  }
+  a {
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+  }
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    color: #012B42;
+    background: url(../images/Screen\ Shot\ 2021-03-28\ at\ 3.18.18\ pm.png);
+    background-color: transparent !important;
+    background-size: contain;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/Screen\ Shot\ 2021-03-28\ at\ 3.18.18\ pm.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #FAF4E1;
+      text-decoration: none;
+      background: #FAF4E1;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: #012B42 !important;
+    font-family: 'Raleway', sans-serif !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron  */
+  .jumbotron {
+    background-image: url(../images/Screen\ Shot\ 2021-03-28\ at\ 3.15.18\ pm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: left;
+  }
+  .btm, .btn-primary, .btn-lg {
+    font-size: 15px !important;
+      color:#FAF4E1;
+      background-color: #012B42;
+      border-top:#012B42 ;
+      border-bottom: #012B42;
+      border-left: #012B42;
+      border-right: #012B42;
+      font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Cards */
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+    color: #012B42 !important;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  h2, .featurette-heading {
+    font-family: 'Yeseva One', cursive;
+    color: #012B42 !important;
+  }
+  h2, .text-muted {
+    color: #222222 !important;
+    font-family: 'Raleway', sans-serif; 
+  }
+  .text-muted {
+      font-size: 22px !important;
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#012B42;
+    color: #FAF4E1;
+    text-align: center;
+  }
+  .footer-link {
+      font-family: 'Raleway', sans-serif;
+      color: #FAF4E1;
+  }
